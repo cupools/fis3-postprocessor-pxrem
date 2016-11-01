@@ -1,0 +1,23 @@
+{
+  "name": "fis3-postprocessor-pxrem",
+  "version": "0.0.1",
+  "description": "Transforming css from px to rem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "px",
+    "rem",
+    "css",
+    "style",
+    "postcss",
+    "fis3"
+  ],
+  "author": "liyh <cupools@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.assign": "^4.2.0",
+    "pxrem": "github:cupools/pxrem"
+  }
+}
