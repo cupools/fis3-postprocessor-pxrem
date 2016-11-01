@@ -4,11 +4,11 @@ var pxrem = require('pxrem')
 var assign = require('lodash.assign')
 
 var defaultOptions = {
-  remUnit: 75,
-  threeVersion: false,
-  remVersion: true,
-  baseDpr: 2,
-  remPrecision: 6
+  root: 75,
+  filter: null,
+  fixed: 6,
+  keepPx: false,
+  commentFilter: 'no'
 }
 
 module.exports = function(content, file, conf) {
