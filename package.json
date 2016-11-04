@@ -19,5 +19,14 @@
   "dependencies": {
     "lodash.assign": "^4.2.0",
     "pxrem": "github:cupools/pxrem"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupools/fis3-postprocessor-pxrem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cupools/fis3-postprocessor-pxrem/issues"
+  },
+  "homepage": "https://github.com/cupools/fis3-postprocessor-pxrem#readme"
 }
