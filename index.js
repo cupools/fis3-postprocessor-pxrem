@@ -13,5 +13,5 @@ var defaultOptions = {
 
 module.exports = function(content, file, conf) {
   var options = assign({}, defaultOptions, conf)
-  return pxrem(content, options)
+  return pxrem.process(content, options).toString()
 }

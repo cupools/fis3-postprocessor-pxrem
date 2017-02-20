@@ -5,3 +5,4 @@ test/build
 test/coverage
 /.apikey
 /.nyc_output
+/.vscode
